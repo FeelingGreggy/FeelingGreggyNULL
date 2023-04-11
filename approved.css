@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Gajraj+One&family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+/* Wild West Font */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Smokum&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/* SCARY FONT , KIDDO!!! */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+*{
+    text-shadow:rgb(0, 0, 0) 3px 0 10px;
+    
+    }
+    
+
+body{
+    background-color: rgb(154, 185, 185);
+}
+
+a{
+    text-decoration: none;
+}
+
+#intro{
+
+    color:ghostwhite;
+    text-align: center;
+    font-size: 175px;
+    box-shadow:ghostwhite 10pt 10pt 10pt 10pt;
+    text-shadow: #000000 10px 0 5px;
+    font-family: 'Acme', sans-serif;
+    background-image: url("Blava.jpg");
+    text-decoration: none;
+}    
+
+#age{
+    color:silver;
+    text-align: center;
+    font-size: 75pt;
+    font-family: "Gajraj One";
+    background-image: url(Bgalaxy.jpg);
+
+}
+
+#congrats{
+    color:aliceblue;
+    text-align: center;
+    font-size: 50pt;
+    font-family: 'Lora', serif;
+
+}
+
+#trackingNum{
+    color: ghostwhite;
+    font-size: 20pt;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+#numNum{
+    color: #ff00ff;
+}
+
+#expected{
+    color: ghostwhite;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+
+#status{
+    font-family: 'Roboto Mono', monospace;
+    color: ghostwhite;
+    text-align: center;
+    
+}
+
+#greenStat{
+    color:forestgreen;
+
+}
+
+#trackingDiv{
+    background-color:cyan;
+}
+
+#updateDate{
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    color: #000000;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20pt;
+}
+
+#exDate{
+    color: rgb(9, 17, 238);
+    font-size: 45pt;
+    font-family: 'Creepster', cursive;
+    text-align: center;
+    
+}
+
+
+
+#shippingPic{
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    width: auto;
+    height: auto;
+}
+
+#confirmDate{
+    text-align: center;
+    font-size: 40pt;
+    color: rgb(176, 176, 214);
+    text-shadow: #000000 2px 2px 2px 2px;
+    font-family: 'Lora', serif;
+
+}
+
+#terms{
+    text-align: center;
+    border-color: #000000;
+    border-style: double;
+    border-width: 2px;
+    color:0,0,0;
+    background-color:cyan;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#newAgeOfChaos{
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    color: lime;
+    font-family: "Gajraj One";
+    font-size: 9pt;
+
+
+}
