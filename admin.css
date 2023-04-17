@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Gajraj+One&family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+/* Wild West Font */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Smokum&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body{
+    background-image: url(beep.jfif);
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+#welcome{
+    color:lime;
+    text-align: center;
+    font-size: 75px;
+    font-family: "Gajraj One";
+    background-image: url(galaxy.jpg);
+}
+
+.warp{
+    text-align: center;
+    color: lime;
+    font-size:50pt;
+    border-color: cyan;
+    border-style:ridge;
+    border-width: 10px;
+    font-family: 'Rubik Iso', cursive;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: darkblue;
+
+}

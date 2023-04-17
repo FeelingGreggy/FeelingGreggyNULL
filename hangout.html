@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<link rel="stylesheet" href="GREG.css">
+
+<link rel="stylesheet" href="moreGREG.css">
+
+<title>Investor's Lounge</title>
+
+<script src="red.js"></script>
+
+<script>
+
+    function mayhem(){
+        setTimeout(showPopup, 1_000);
+    setTimeout(showPopup, 10_000);
+    
+    let popup; // global variable for state management
+    function showPopup() { // call twice to remove popup
+        // if the popup already exists, remove it
+        if (popup) {
+            popup.parentNode.removeChild(popup);
+            popup = undefined;
+            return;
+        }
+    
+        // create image popup
+        popup = document.createElement("img");
+        popup.src = "LetTheMayhemContinue.png";
+        var boom = new Audio('VineBoom.mp3');
+        boom.play();
+        Object.assign(popup.style, {
+            zIndex: 10000,
+            position: "fixed",
+            top: "50%",
+            left: "50%",
+            width: "100vh",
+            transform: "translate(-50%,-50%)",
+    
+        });
+    
+        document.body.appendChild(popup);
+    
+    }
+    
+    }
+    
+    
+    </script>
+    
+
+</head>
+
+
+
+<body>
+
+<h1 id="intro">Gregory Miller Points</h1>
+
+<h2 id="age">THE NEW AGE OF CRYPTO</h2>
+
+<a href="index.html" class="warp">RETURN TO HOMEPAGE</a>
+
+<p id="chillout">Welcome to Investor's Lounge! Here you can sit and enjoy all the perks
+    that come with rebuilding the future. Please make yourself at home.
+</p>
+
+<h1 id="anti_malware">Free Malware Scan</h1>
+
+<p id="scan_here">All investors enjoy free virus and malware scans curtiosy of
+     <span id="sunny">SunShine Computer Solutions
+    </span> !!! Simply click the button below to scan your device for any malware.  </p>
+
+<button id="red_reboot" onclick="red_reboot()">Quick Scan</button>
+
+<br>
+
+<br>
+
+<br>
+
+<div id="svb_div">
+
+<h1 id="svb_header">Grgeory Miller Points To Aquire <span id="svb_color">SVB</span><span id="svb_arr">></span></h1>
+
+<p id="getting_svb">March 10, 2023 saw the unexpected collapse of Silicon Valley Bank.
+    Being the leaders of the future, we are pleased to announce the aquistion of Silicon Valley Bank.
+    This will serve as an example of the follies of the current way of exchange. 
+
+    <a href="https://www.svb.com/" id="svb_link">
+
+    <img src="svb.jpg" id="svb_pic">
+    </a>
+
+    With such a powerful
+    asset in our control we will control the path to the future. THE NEW AGE OF CRYPTO is now closer 
+    than ever to us. At the time of writing we cannot discuss any further details but are 
+    excited to share more information once we have the liberty to do so. Until then...
+
+    <span onclick="mayhem()";>"Let The Maythem Continue"</span>
+    - The Gregory Miller Points Team
+</p>
+
+</div>
+
+<br>
+
+<h1 id="limited_offer">Call Us And Get 500 TOKENS For $49.99 USD!!!</h1>
+
+<h6 id="offer_des">Get a MONARCH package for only $49.99 USD!!! Only available to
+    those who call us directly. Get your's today, Kiddo!!
+</h6>
+
+<img src="LizardMan.jpg" id="lizard">
+
+
+<h1 id="greg_yt">Subscribe to Gregory Miller</h1>
+
+<a href="https://www.youtube.com/@thelegendarysaus"><img id="ex_greg"src="art_greg.jpg" ></a>
+
+
+
+
+
+<p id="terms">All sales are final. Tokens may take up to 30 days to be fully processed and appear in your wallet. All sales include access
+    to the Gregory Miller Points help-line which can be reached at (352-726-8905). You can also visit our help page for 
+    contact infomation and FAQ's. Taxes may be added to your order total depending 
+on your location. We thank you for your purchase and hope to continue to change the world of currency one token at a time. </p>
+
+
+
+
+
+
+
+</body>
+
+</html>
